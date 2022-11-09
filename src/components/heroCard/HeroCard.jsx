@@ -11,7 +11,7 @@ const HeroCard = () => {
             className="hero__photo"
           />
         </div>
-        <div className="hero__name">Bogdan Kovalyov</div>
+        <div className="hero__name">БОГДАН КОВАЛЁВ</div>
         <div className="hero__description">frontend developer</div>
       </div>
       <div className="hero__links"></div>

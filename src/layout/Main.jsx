@@ -1,25 +1,23 @@
 import React from "react";
 import HeroCard from "../components/heroCard/HeroCard";
+import LinkItem from "../components/link/LinkItem";
 import email from "../img/svg/email.svg";
 import telegram from "../img/svg/telegram.svg";
+import github from "../img/svg/github.svg";
+import phone from "../img/svg/phone.svg";
+import linkedin from "../img/svg/linkedin.svg";
 
 const Main = () => {
   return (
     <main>
       <HeroCard />
       <hr />
-      <a type="email" href=" " className="link">
-        <div className="link__icon">
-          <img src={email} alt="email" height={"34px"} />
-        </div>
-        Написать e-mail
-      </a>
-      <a type="email" href=" " className="link">
-        <div className="link__icon">
-          <img src={telegram} alt="telegram" height={"34px"} />
-        </div>
-        Написать в telegram
-      </a>
+      <LinkItem icon={linkedin} title={"LinkedIn"} />
+      <LinkItem icon={github} title={"gitHub"} />
+      <hr />
+      <LinkItem icon={telegram} title={"Telegram"} />
+      <LinkItem icon={email} title={"e-mail"} />
+      <LinkItem icon={phone} title={"+7 908 919 25 14"} />
     </main>
   );
 };
