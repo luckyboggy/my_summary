@@ -6,8 +6,8 @@ const LinkItem = (props) => {
     <a
       type={type}
       href={href}
-      /* target="_blank"
-      rel="noreferrer" */
+      target="_blank"
+      rel="noreferrer"
       className="link"
     >
       <div className="link__icon">
