@@ -12,12 +12,32 @@ const Main = () => {
     <main>
       <HeroCard />
       <hr />
-      <LinkItem icon={linkedin} title={"LinkedIn"} />
-      <LinkItem icon={github} title={"gitHub"} />
+      <LinkItem
+        icon={linkedin}
+        title={"LinkedIn"}
+        href={"https://www.linkedin.com/in/luckyboggy"}
+      />
+      <LinkItem
+        icon={github}
+        title={"gitHub"}
+        href={"https://github.com/luckyboggy"}
+      />
       <hr />
-      <LinkItem icon={telegram} title={"Telegram"} />
-      <LinkItem icon={email} title={"e-mail"} />
-      <LinkItem icon={phone} title={"+7 908 919 25 14"} />
+      <LinkItem
+        icon={telegram}
+        title={"Telegram"}
+        href={"https://t.me/luckyboggy"}
+      />
+      <LinkItem
+        icon={email}
+        title={"e-mail"}
+        href={"mailto: luckyboggy@gmail.com"}
+      />
+      <LinkItem
+        icon={phone}
+        title={"+7 908 919 25 14"}
+        href={"tel:+79089192514"}
+      />
     </main>
   );
 };
